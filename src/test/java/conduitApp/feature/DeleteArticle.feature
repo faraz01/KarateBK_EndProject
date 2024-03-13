@@ -1,4 +1,4 @@
-@deletefunction
+@AddDeleteArticle
 
 Feature: test for deleting an article
 
