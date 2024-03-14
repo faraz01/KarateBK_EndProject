@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="5.714" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="7.296" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire11894264317111039335\surefirebooter-20240313132926612_3.jar C:\Users\Dell\AppData\Local\Temp\surefire11894264317111039335 2024-03-13T13-29-26_295-jvmRun1 surefire-20240313132926612_1tmp surefire_0-20240313132926612_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire15234938349344248843\surefirebooter-20240313154256482_3.jar C:\Users\Dell\AppData\Local\Temp\surefire15234938349344248843 2024-03-13T15-42-55_961-jvmRun1 surefire-20240313154256482_1tmp surefire_0-20240313154256482_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\BackEnd-Karate Project\KarateBK_EndProject\target\test-classes;C:\BackEnd-Karate Project\KarateBK_EndProject\target\classes;C:\Users\Dell\.m2\repository\com\intuit\karate\karate-junit5\1.4.1\karate-junit5-1.4.1.jar;C:\Users\Dell\.m2\repository\com\intuit\karate\karate-core\1.4.1\karate-core-1.4.1.jar;C:\Users\Dell\.m2\repository\org\graalvm\js\js-scriptengine\22.3.3\js-scriptengine-22.3.3.jar;C:\Users\Dell\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.3\graal-sdk-22.3.3.jar;C:\Users\Dell\.m2\repository\org\graalvm\js\js\22.3.3\js-22.3.3.jar;C:\Users\Dell\.m2\repository\org\graalvm\regex\regex\22.3.3\regex-22.3.3.jar;C:\Users\Dell\.m2\repository\org\graalvm\truffle\truffle-api\22.3.3\truffle-api-22.3.3.jar;C:\Users\Dell\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\Dell\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Dell\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\Dell\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\Dell\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Dell\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\Dell\.m2\repository\com\linecorp\armeria\armeria\1.25.2\armeria-1.25.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\Dell\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\Dell\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\Dell\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\Dell\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\Dell\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\Dell\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-haproxy\4.1.96.Final\netty-codec-haproxy-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-http2\4.1.96.Final\netty-codec-http2-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver-dns\4.1.96.Final\netty-resolver-dns-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-dns\4.1.96.Final\netty-codec-dns-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler-proxy\4.1.96.Final\netty-handler-proxy-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-socks\4.1.96.Final\netty-codec-socks-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.96.Final\netty-resolver-dns-classes-macos-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-tcnative-classes\2.0.61.Final\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\Dell\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.12.0\brotli4j-1.12.0.jar;C:\Users\Dell\.m2\repository\com\aayushatharva\brotli4j\service\1.12.0\service-1.12.0.jar;C:\Users\Dell\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.12.0\native-windows-x86_64-1.12.0.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Dell\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Dell\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Dell\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.9\jcl-over-slf4j-2.0.9.jar;C:\Users\Dell\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\Dell\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\Dell\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\Dell\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\Dell\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Dell\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Dell\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\Dell\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\Dell\.m2\repository\io\github\classgraph\classgraph\4.8.160\classgraph-4.8.160.jar;C:\Users\Dell\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\Dell\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,8 +33,8 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="karate.options" value="--tags @articles"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire11894264317111039335\surefirebooter-20240313132926612_3.jar"/>
+    <property name="karate.options" value="--tags @SignUpAPI"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire15234938349344248843\surefirebooter-20240313154256482_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.22+9-LTS-219"/>
@@ -62,13 +62,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="5.677">
-    <system-out><![CDATA[13:29:27.701 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @articles
-13:29:28.566 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-13:29:28.585 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710316768566
-13:29:29.651 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:29:29.651 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-13:29:30.038 [main] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="7.263">
+    <system-out><![CDATA[15:42:58.153 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @SignUpAPI
+15:42:59.177 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:42:59.183 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710324779178
+15:43:00.798 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:43:00.809 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:43:01.672 [main] DEBUG com.intuit.karate - request:
 1 > POST https://conduit-api.bondaracademy.com/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 59
@@ -78,79 +78,56 @@
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"afaraaz@gmail.com","password":"test123"}}
 
-13:29:30.699 [main] DEBUG com.intuit.karate - response time in milliseconds: 645
+15:43:02.526 [main] DEBUG com.intuit.karate - response time in milliseconds: 838
 1 < 200
 1 < x-powered-by: Express
 1 < access-control-allow-origin: https://conduit.bondaracademy.com
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"125-HwW8sk4NWKp2uegvfFoXFxgJIrM"
-1 < X-Cloud-Trace-Context: 1c6ef7574c9f8087c35f9f277dd0da82;o=1
-1 < Date: Wed, 13 Mar 2024 07:59:29 GMT
+1 < etag: W/"125-uYYDh/i+7NIZDa8c7KV0B6cQBiM"
+1 < X-Cloud-Trace-Context: 0aac76a0dc18144c41764f88ddd28029
+1 < Date: Wed, 13 Mar 2024 10:13:01 GMT
 1 < Server: Google Frontend
 1 < Content-Length: 293
-{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMTY3NjksImV4cCI6MTcxNTUwMDc2OX0.v5sngcJ-UhSppBYhehqiwcK4hD0i6W096VF4z6nmYtc"}}
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMjQ3ODEsImV4cCI6MTcxNTUwODc4MX0.yjUomOGHcDJNfSNXu-CdGTza6QMEWN876pW-KDjFGpQ"}}
 
-13:29:30.699 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
-13:29:30.716 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMTY3NjksImV4cCI6MTcxNTUwMDc2OX0.v5sngcJ-UhSppBYhehqiwcK4hD0i6W096VF4z6nmYtc
+15:43:02.537 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:43:02.553 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMjQ3ODEsImV4cCI6MTcxNTUwODc4MX0.yjUomOGHcDJNfSNXu-CdGTza6QMEWN876pW-KDjFGpQ
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 101
+1 > Content-Length: 90
 1 > Host: conduit-api.bondaracademy.com
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
 1 > Accept-Encoding: gzip,deflate
-{"article":{"tagList":["Tags"],"title":"afaraaz0786","description":"Test","body":" through-script "}}
+{"user":{"email":"TestSample01@test.com","password":"test1234","username":"TestSample01"}}
 
-13:29:31.144 [main] DEBUG com.intuit.karate - response time in milliseconds: 428
+15:43:03.069 [main] DEBUG com.intuit.karate - response time in milliseconds: 515
 1 < 201
 1 < x-powered-by: Express
 1 < access-control-allow-origin: https://conduit.bondaracademy.com
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"16a-MX4NgAA9YLlDYYaqPsayXNAYIgo"
-1 < X-Cloud-Trace-Context: ba4fba0f6558f11c1a40e81226151b42
-1 < Date: Wed, 13 Mar 2024 07:59:30 GMT
+1 < etag: W/"139-qL48vXXwQYyehOqC8PYKjoiDAm8"
+1 < X-Cloud-Trace-Context: 47f9078859623d1ec9475e28fdace14d
+1 < Date: Wed, 13 Mar 2024 10:13:02 GMT
 1 < Server: Google Frontend
-1 < Content-Length: 362
-{"article":{"slug":"afaraaz0786-679","title":"afaraaz0786","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-13T07:59:30.346Z","updatedAt":"2024-03-13T07:59:30.346Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}}
-
-13:29:31.197 [main] INFO  com.intuit.karate - karate.env system property was: null 
-13:29:31.210 [main] DEBUG com.intuit.karate - request:
-1 > GET https://conduit-api.bondaracademy.com/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMTY3NjksImV4cCI6MTcxNTUwMDc2OX0.v5sngcJ-UhSppBYhehqiwcK4hD0i6W096VF4z6nmYtc
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
-1 > Accept-Encoding: gzip,deflate
-
-
-13:29:31.644 [main] DEBUG com.intuit.karate - response time in milliseconds: 415
-1 < 200
-1 < x-powered-by: Express
-1 < access-control-allow-origin: https://conduit.bondaracademy.com
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"13f9-rH+JQkJSVZtwl52Niv5j3qs5/1o"
-1 < X-Cloud-Trace-Context: 926d816955c8c8e54dbb6f3546e435b1
-1 < Date: Wed, 13 Mar 2024 07:59:30 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 5113
-{"articles":[{"slug":"afaraaz0786-679","title":"afaraaz0786","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-13T07:59:30.346Z","updatedAt":"2024-03-13T07:59:30.346Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"afaraaz07-679","title":"afaraaz07","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-13T07:58:33.550Z","updatedAt":"2024-03-13T07:58:33.550Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"afaraaz06-679","title":"afaraaz06","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-13T07:56:11.270Z","updatedAt":"2024-03-13T07:56:11.270Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"afaraaz01-679","title":"afaraaz01","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-12T10:42:21.631Z","updatedAt":"2024-03-12T10:42:21.631Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"DunkyTest-to-Deletes-679","title":"DunkyTest to Deletes","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-12T09:36:14.486Z","updatedAt":"2024-03-12T09:36:14.486Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"DunnyTest-to-Deletes-679","title":"DunnyTest to Deletes","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-12T09:33:50.391Z","updatedAt":"2024-03-12T09:33:50.391Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"RunnyTest-to-Deletes-679","title":"RunnyTest to Deletes","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-11T12:09:42.841Z","updatedAt":"2024-03-11T12:09:42.841Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"SunnyTest-to-Deletes-679","title":"SunnyTest to Deletes","description":"Test","body":" through-script ","tagList":["tags"],"createdAt":"2024-03-11T11:56:57.101Z","updatedAt":"2024-03-11T11:56:57.101Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Article-Title-679","title":"Article Title","description":"About Article","body":"Write your own article","tagList":["Tags for fun"],"createdAt":"2024-03-11T11:50:32.446Z","updatedAt":"2024-03-11T11:50:32.446Z","favorited":false,"favoritesCount":0,"author":{"username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":52,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":19}
+1 < Content-Length: 313
+{"user":{"id":1196,"email":"TestSample01@test.com","username":"TestSample01","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMTk2fSwiaWF0IjoxNzEwMzI0NzgyLCJleHAiOjE3MTU1MDg3ODJ9.qkZhgBeSP4NxlHPBhlybgSVrx6NmyWmbIRd7trLBR48"}}
 
 ---------------------------------------------------------
-feature: classpath:conduitApp/feature/PostArticle.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 0.9388
+feature: classpath:conduitApp/feature/EmbedandMultiline.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.5598
 ---------------------------------------------------------
 
-13:29:32.740 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 4 (0 remaining) classpath:conduitApp/feature/PostArticle.feature
-13:29:32.748 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+15:43:04.364 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+15:43:04.387 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
 Karate version: 1.4.1
 ======================================================
-elapsed:   5.07 | threads:    1 | thread time: 0.94 
-features:     1 | skipped:    3 | efficiency: 0.19
-scenarios:    2 | passed:     2 | failed: 0
+elapsed:   6.25 | threads:    1 | thread time: 0.56 
+features:     1 | skipped:    4 | efficiency: 0.09
+scenarios:    1 | passed:     1 | failed: 0
 ======================================================
 
 HTML report: (paste into browser to view) | Karate version: 1.4.1
