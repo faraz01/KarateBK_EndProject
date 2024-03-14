@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"73a61bd2-e8e8-49ca-ab5c-ecf1d0bd8598",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>conduitApp.feature.ProdHomePage</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-03-13 05:04:07 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>Get all available Tags</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:20]"><span>[2:20]</span> <span>Get 10 articles from homepage -production</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduitApp/feature/ProdHomePage.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Tests for a home page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">Get all available Tags</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>772</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">17:04:00.954 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">768</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">17:04:01.066 request:
+1 &gt; GET https://conduit-api.bondaracademy.com/api/tags
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMjk2MzgsImV4cCI6MTcxNTUxMzYzOH0.YHDAnYmxeLjL4WRVxwmiprPWfHhlXxA0l47eAEUZj1w
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:04:01.820 response time in milliseconds: 743
+1 &lt; 200
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;65-mcgByJ1b4JohG4RjQbpFVvoBr58&quot;
+1 &lt; X-Cloud-Trace-Context: f01e998d5f524609587e05f03a6b82a1
+1 &lt; Date: Wed, 13 Mar 2024 11:34:00 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 101
+{&quot;tags&quot;:[&quot;Test&quot;,&quot;tags&quot;,&quot;Zoom&quot;,&quot;YouTube&quot;,&quot;Bondar Academy&quot;,&quot;Community&quot;,&quot;Enroll&quot;,&quot;Exam&quot;,&quot;Git&quot;,&quot;GitHub&quot;]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref failed">13</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.tags contains [&#39;enim&#39;,&#39;exercitationem&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">17:04:01.827 classpath:conduitApp/feature/ProdHomePage.feature:13
+And match response.tags contains [&#39;enim&#39;,&#39;exercitationem&#39;]
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - enim (LIST:LIST)
+  [&quot;Test&quot;,&quot;tags&quot;,&quot;Zoom&quot;,&quot;YouTube&quot;,&quot;Bondar Academy&quot;,&quot;Community&quot;,&quot;Enroll&quot;,&quot;Exam&quot;,&quot;Git&quot;,&quot;GitHub&quot;]
+  [&quot;enim&quot;,&quot;exercitationem&quot;]
+
+    $[9] | not equal (STRING:STRING)
+    &#39;GitHub&#39;
+    &#39;enim&#39;
+
+    $[8] | not equal (STRING:STRING)
+    &#39;Git&#39;
+    &#39;enim&#39;
+
+    $[7] | not equal (STRING:STRING)
+    &#39;Exam&#39;
+    &#39;enim&#39;
+
+    $[6] | not equal (STRING:STRING)
+    &#39;Enroll&#39;
+    &#39;enim&#39;
+
+    $[5] | not equal (STRING:STRING)
+    &#39;Community&#39;
+    &#39;enim&#39;
+
+    $[4] | not equal (STRING:STRING)
+    &#39;Bondar Academy&#39;
+    &#39;enim&#39;
+
+    $[3] | not equal (STRING:STRING)
+    &#39;YouTube&#39;
+    &#39;enim&#39;
+
+    $[2] | not equal (STRING:STRING)
+    &#39;Zoom&#39;
+    &#39;enim&#39;
+
+    $[1] | not equal (STRING:STRING)
+    &#39;tags&#39;
+    &#39;enim&#39;
+
+    $[0] | not equal (STRING:STRING)
+    &#39;Test&#39;
+    &#39;enim&#39;
+
+classpath:conduitApp/feature/ProdHomePage.feature:13
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref skipped">14</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.tags !contains &#39;Ahmed&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.tags == &quot;#array&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:20]</span>
+                <span class="scenario-name">Get 10 articles from homepage -production</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>760</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiURL</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">17:04:01.061 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given param limit = 10</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given param offset = 0</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Above commented also work</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params { limit: 10, offset: 0}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">751</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">17:04:01.071 request:
+1 &gt; GET https://conduit-api.bondaracademy.com/api/articles?offset=0&amp;limit=10
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTAzMjk2MzgsImV4cCI6MTcxNTUxMzYzOH0.YHDAnYmxeLjL4WRVxwmiprPWfHhlXxA0l47eAEUZj1w
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:04:01.818 response time in milliseconds: 736
+1 &lt; 200
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;e2c-BbMPhPcj6MUGDUKzV9Wkxcb246Q&quot;
+1 &lt; X-Cloud-Trace-Context: cffa7d4dd3122aa0b76b728f476617bc
+1 &lt; Date: Wed, 13 Mar 2024 11:34:00 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 3628
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;DunkyRoads-679&quot;,&quot;title&quot;:&quot;DunkyRoads&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-13T11:33:59.244Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-13T11:33:59.244Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;afaraaz0786-679&quot;,&quot;title&quot;:&quot;afaraaz0786&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-13T07:59:30.346Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-13T07:59:30.346Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;afaraaz07-679&quot;,&quot;title&quot;:&quot;afaraaz07&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-13T07:58:33.550Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-13T07:58:33.550Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;afaraaz06-679&quot;,&quot;title&quot;:&quot;afaraaz06&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-13T07:56:11.270Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-13T07:56:11.270Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;afaraaz01-679&quot;,&quot;title&quot;:&quot;afaraaz01&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-12T10:42:21.631Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-12T10:42:21.631Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;DunkyTest-to-Deletes-679&quot;,&quot;title&quot;:&quot;DunkyTest to Deletes&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-12T09:36:14.486Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-12T09:36:14.486Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;DunnyTest-to-Deletes-679&quot;,&quot;title&quot;:&quot;DunnyTest to Deletes&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-12T09:33:50.391Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-12T09:33:50.391Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;RunnyTest-to-Deletes-679&quot;,&quot;title&quot;:&quot;RunnyTest to Deletes&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-11T12:09:42.841Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-11T12:09:42.841Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;SunnyTest-to-Deletes-679&quot;,&quot;title&quot;:&quot;SunnyTest to Deletes&quot;,&quot;description&quot;:&quot;Test&quot;,&quot;body&quot;:&quot; through-script &quot;,&quot;tagList&quot;:[&quot;tags&quot;],&quot;createdAt&quot;:&quot;2024-03-11T11:56:57.101Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-11T11:56:57.101Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Article-Title-679&quot;,&quot;title&quot;:&quot;Article Title&quot;,&quot;description&quot;:&quot;About Article&quot;,&quot;body&quot;:&quot;Write your own article&quot;,&quot;tagList&quot;:[&quot;Tags for fun&quot;],&quot;createdAt&quot;:&quot;2024-03-11T11:50:32.446Z&quot;,&quot;updatedAt&quot;:&quot;2024-03-11T11:50:32.446Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;afaraaz&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:20}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.articles == &#39;#[10]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref failed">29</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.articlesCount == 251</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.29">17:04:01.830 classpath:conduitApp/feature/ProdHomePage.feature:29
+And match response.articlesCount == 251
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  20
+  251
+
+classpath:conduitApp/feature/ProdHomePage.feature:29
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
