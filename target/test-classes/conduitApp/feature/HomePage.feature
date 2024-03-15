@@ -10,10 +10,10 @@ Scenario: Get all available Tags
     Given path 'tags'
     When method Get
     Then status 200
-    And match response.tags contains ['YouTube','Bondar Academy']
-    And match response.tags !contains ['Ahmed','Faraaz']
+    And match response.tags contains ['Test','zoom']
+    And match response.tags !contains ['Ahmed','git']
     And match response.tags == "#array"
-    # And match each response.tags == "#String"
+    And match each response.tags == "#String"
 
 
 
