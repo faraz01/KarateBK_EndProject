@@ -11,6 +11,8 @@ Background: Preconditions
 Scenario: Sign Up new user
     Given def userData = {"email":"Testuser007@test.com","username":"Testuser007"}
     Given path 'users'
+    #line 16 and 18 both send an request to the server way sending request is different 
+    
     # And request {"user":{"email":#('Test'+userData.email),"password":"test1234","username":#('User'+userData.username)}}
     
     And request
