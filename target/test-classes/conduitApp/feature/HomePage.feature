@@ -33,3 +33,6 @@ Scenario: Get 10 articles from homepage
     And match response =={"articles": "#array" , "articlesCount": 21 }
     And match response.articles[0].createdAt contains '2024'
     And match response.articles[*].favoritesCount contains 0
+    And match response..bio contains null
+    # And match response.articles[*].author.following == false
+    And match each response..following == false
