@@ -30,3 +30,6 @@ Scenario: Get 10 articles from homepage
     Then status 200
     And match response.articles == '#[10]'
     And match response.articlesCount == 21
+    And match response =={"articles": "#array" , "articlesCount": 21 }
+    And match response.articles[0].createdAt contains '2020'
+    And match response.articles[*].favoritesCount contains 5
