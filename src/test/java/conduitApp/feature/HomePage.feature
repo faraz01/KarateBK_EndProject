@@ -48,7 +48,6 @@ Scenario: Get 10 articles from homepage
     #if we remove single-# from ''##String'' above assertion fail , since we have both String and Null value in an array
 
     # Schema Validation 
-
     And match each response.articles == 
     """
         {
@@ -56,7 +55,7 @@ Scenario: Get 10 articles from homepage
             "title": "#string",
             "description": "#string",
             "body": "#string",
-            "tagList": "#array"
+            "tagList": "#array",
             "createdAt": "#? timeValidator(_)",
             "updatedAt": "#? timeValidator(_)",
             "favorited": '#boolean',
@@ -81,9 +80,7 @@ Scenario: Get 10 articles from homepage - Schema Validation
     Given path 'articles'
     When method Get
     Then status 200
-    And match response.articles == '#[10]'
-    And match response.articlesCount == 21
-    And match response =={"articles": "#array" , "articlesCount": 21 }
+    And match response =={"articles": "#[10]" , "articlesCount": 21 }
 
     And match each response.articles == 
     """
