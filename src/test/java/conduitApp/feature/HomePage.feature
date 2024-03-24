@@ -106,5 +106,7 @@ Scenario: Get 10 articles from homepage - Schema Validation
         }
 
     """
-
+# for timeValidator download code from git karate from Schema validation and paste it under 
+#file created under helpers and update the date format as per in response and call that functio
+#in feature file
 
