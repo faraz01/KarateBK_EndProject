@@ -9,7 +9,7 @@ Background: Preconditions
 
 @SignUpAPI
 Scenario: Sign Up new user
-    Given def userData = {"email":"Testuser007@test.com","username":"Testuser007"}
+    Given def userData = {"email":"Testuser786@test.com","username":"Testuser786"}
     Given path 'users'
     #line 16 and 18 both send an request to the server way sending request is different 
     
