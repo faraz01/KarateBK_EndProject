@@ -3,13 +3,21 @@
 Feature: SignUp API- creating users for site
 
 Background: Preconditions
+    * def dataGenerator = Java.type('helpers.DataGenerator')
     Given url apiURL
 
 
 
 @SignUpAPI
 Scenario: Sign Up new user
-    Given def userData = {"email":"Testuser786@test.com","username":"Testuser786"}
+    # Given def userData = {"email":"Testuser786@test.com","username":"Testuser786"}
+
+        # Comented above line since no need of it -since we added line 30-32
+# Calling methid from helpers/DataGenerator'
+
+        * def randomEmail = dataGenerator.getRandomEmail()
+        * def randomUsername = dataGenerator.getRandomUsername()
+
     Given path 'users'
     #line 16 and 18 both send an request to the server way sending request is different 
     
@@ -19,9 +27,9 @@ Scenario: Sign Up new user
     """
 {
     "user": {
-        "email": #(userData.email),
-        "password": "test1234",
-        "username": #(userData.username)
+        "email": #(randomEmail),
+        "password": "test123",
+        "username": #(randomUsername)
     }
 }
 
@@ -29,6 +37,29 @@ Scenario: Sign Up new user
     
     When method Post
     Then status 201
+    And match response ==
+
+    """
+        {
+            "user": {
+                "id": #number,
+                "email": #(randomEmail),
+                "username": #(randomUsername),
+                "bio": null,
+                "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+                "token": "#string"
+            }
+        }
+
+
+
+
+
+    """
+
+
+
+
     # And match response.user.username == #('User'+userData.username)
     
     # Given path 'articles'
