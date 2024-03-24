@@ -57,13 +57,34 @@ Scenario: Sign Up new user
 
     """
 
+    @invalidSignUp
+    Scenario Outline: Validate Sign Up with invalid credentials
 
+        * def randomEmail = dataGenerator.getRandomEmail()
+        * def randomUsername = dataGenerator.getRandomUsername()
 
+    Given path 'users'
+   
+    And request
+    """
+    {
+    "user": {
+        "email": "<email>",
+        "password": "<password>",
+        "username": "<username>"
+            }
 
-    # And match response.user.username == #('User'+userData.username)
+    }
+    """
     
-    # Given path 'articles'
-    # And request {"article": {"tagList": ["Tags", "wipro", "wilearn"], "title": "Udemy_Wilearn","description": "Test","body": " through-script-karate"}}
-    # When method Post
-    # Then status 201
-    # * def  articleId = response.article.slug
+    When method Post
+    Then status 422
+
+    And match response contains <errorResponse>
+
+    Examples:
+            |email           |password       | username                 | errorResponse                                                                       |
+            |#(randomEmail)  | test123       |ahfar                     |{"errors":{"username":["has already been taken"]}}|
+            |ahfar@test.com   | test123      |#(randomUsername)         |{"errors":{"email":["has already been taken"]}}|
+            |ahfar@test.com  | test123       |ahfar                     |{"errors":{"email":["has already been taken"],"username":["has already been taken"]}}|
+            

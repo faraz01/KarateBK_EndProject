@@ -10687,3 +10687,638 @@ classpath:conduitApp/feature/EmbedandMultiline.feature:6
 
 15:27:02.547 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
 15:27:02.567 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+15:37:42.991 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+15:37:43.941 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:43.948 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711274863943
+15:37:45.581 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:45.593 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:37:46.162 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+15:37:46.846 [main] DEBUG com.intuit.karate - response time in milliseconds: 668
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-xefw31cP+xY3f32dwxQaSq1GXno"
+1 < X-Cloud-Trace-Context: ffb9d9fb0c372ab006e4a3574ad96c9f;o=1
+1 < Date: Sun, 24 Mar 2024 10:07:46 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzQ4NjYsImV4cCI6MTcxNjQ1ODg2Nn0.n3I8inAq23lmX4YEXNPs0Ns7mH_52PnEr5ZGrNyOZBY"}}
+
+15:37:46.846 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:37:47.204 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzQ4NjYsImV4cCI6MTcxNjQ1ODg2Nn0.n3I8inAq23lmX4YEXNPs0Ns7mH_52PnEr5ZGrNyOZBY
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 84
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"ahfaqr@test.com","password":"test123","username":"merlin.wisozk"}}
+
+15:37:47.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 331
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: d790e26e635f4e031b79ad564f20ce3e
+1 < Date: Sun, 24 Mar 2024 10:07:47 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+15:37:48.610 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+15:37:48.632 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+15:51:12.580 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+15:51:13.683 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:51:13.683 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711275673683
+15:51:15.096 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:51:15.118 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:51:15.695 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+15:51:16.375 [main] DEBUG com.intuit.karate - response time in milliseconds: 672
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-T/DfhTOc2r4SVIW3//cy349FU9w"
+1 < X-Cloud-Trace-Context: f535e8764d8d7f5cdf651bfc3388365d
+1 < Date: Sun, 24 Mar 2024 10:21:16 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzU2NzYsImV4cCI6MTcxNjQ1OTY3Nn0.d1IZwJckSEqtifYsb2ZtD-M_3sEwfLS_LK6KimLRfnk"}}
+
+15:51:16.375 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:51:16.736 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:68
+And request
+"""
+{
+    "user": {
+        "email": "#(randomEmail)",
+        "password": "test123",
+        "username": "ahfaqr"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected End Of File position 111: null
+classpath:conduitApp/feature/EmbedandMultiline.feature:68
+15:51:16.752 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:51:16.849 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:68
+And request
+"""
+{
+    "user": {
+        "email": "#(randomEmail)",
+        "password": "test123",
+        "username": "ahfasr"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected End Of File position 111: null
+classpath:conduitApp/feature/EmbedandMultiline.feature:68
+15:51:16.849 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:51:16.946 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:68
+And request
+"""
+{
+    "user": {
+        "email": "#(randomEmail)",
+        "password": "test123",
+        "username": "ahfaqr"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected End Of File position 111: null
+classpath:conduitApp/feature/EmbedandMultiline.feature:68
+15:51:18.037 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+15:51:18.051 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+15:52:08.825 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+15:52:09.660 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:52:09.665 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711275729661
+15:52:11.122 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:52:11.139 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:52:11.873 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+15:52:12.483 [main] DEBUG com.intuit.karate - response time in milliseconds: 606
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-iwe3E9TkS90NbTSLryhik3CbT7o"
+1 < X-Cloud-Trace-Context: f6f269bf645e87d3c9ab2d7836f2b079;o=1
+1 < Date: Sun, 24 Mar 2024 10:22:12 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzU3MzIsImV4cCI6MTcxNjQ1OTczMn0.xshwdofgafebycRk4cvNHLRVpbDuSZA3S_6aGB6gPSI"}}
+
+15:52:12.492 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:52:12.867 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:68
+And request
+"""
+{
+    "user": {
+        "email": "#(randomEmail)",
+        "password": "test123",
+        "username": "ahfaqr"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected End Of File position 111: null
+classpath:conduitApp/feature/EmbedandMultiline.feature:68
+15:52:14.007 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+15:52:14.023 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+15:54:51.963 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+15:54:52.848 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:54:52.848 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711275892848
+15:54:53.947 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:54:53.947 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:54:54.432 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+15:54:55.037 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-/4nEHHtqgxfZ0doWUR2/Gh36D4M"
+1 < X-Cloud-Trace-Context: 6a18b37293cee8fb6a036baf7fb2d632;o=1
+1 < Date: Sun, 24 Mar 2024 10:24:54 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzU4OTQsImV4cCI6MTcxNjQ1OTg5NH0.ZCf-LelMyRfYKPQHOfHi6vqC4oDcaGWzcuYtSvZmPX0"}}
+
+15:54:55.050 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:54:55.319 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:68
+And request
+"""
+{
+    "user": {
+        "email": "#(randomEmail)",
+        "password": "test123",
+        "username": "ahfar"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected End Of File position 110: null
+classpath:conduitApp/feature/EmbedandMultiline.feature:68
+15:54:56.237 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+15:54:56.255 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+16:20:54.860 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+16:20:55.989 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:20:56.021 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711277456021
+16:20:57.441 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:20:57.448 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+16:20:58.026 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+16:20:58.914 [main] DEBUG com.intuit.karate - response time in milliseconds: 888
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-AiBDClizVn/RX655o8mWBhfbs7A"
+1 < X-Cloud-Trace-Context: a28472d3ce9a2ef511fe2b21c18c52eb;o=1
+1 < Date: Sun, 24 Mar 2024 10:50:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc0NTgsImV4cCI6MTcxNjQ2MTQ1OH0.Xz617TyTpElckJUv70Ypv9J4yy45P6iabwD_QfHhVyc"}}
+
+16:20:58.930 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+16:20:59.177 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:68
+And request
+"""
+{
+    "user": {
+        "email": "#(randomEmail)",
+        "password": "test123",
+        "username": "ahfar"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected End Of File position 110: null
+classpath:conduitApp/feature/EmbedandMultiline.feature:68
+16:21:00.723 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+16:21:00.796 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+16:23:41.487 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+16:23:42.534 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:23:42.539 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711277622535
+16:23:44.302 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:23:44.325 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+16:23:45.240 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+16:23:46.004 [main] DEBUG com.intuit.karate - response time in milliseconds: 752
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-qQz3aOKr0HGVpe9UT84Q+TEst+Y"
+1 < X-Cloud-Trace-Context: 52b6402df01d0a40a38b531f624b8fc6;o=1
+1 < Date: Sun, 24 Mar 2024 10:53:45 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc2MjUsImV4cCI6MTcxNjQ2MTYyNX0.se_YW2hlw7R6Z7mrOVMGTYRqcss1CuDHPgN5nMYVmuE"}}
+
+16:23:46.021 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+16:23:46.290 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc2MjUsImV4cCI6MTcxNjQ2MTYyNX0.se_YW2hlw7R6Z7mrOVMGTYRqcss1CuDHPgN5nMYVmuE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 75
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"kira1@test.com","password":"test123","username":"ahfar"}}
+
+16:23:46.628 [main] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 2f104cb774b56acdbe7f3f3398e02eb1
+1 < Date: Sun, 24 Mar 2024 10:53:46 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+16:23:46.672 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:83
+And match response == "{"errors":{"username":["has already been taken"]}}"
+js failed:
+>>>>
+01: "{"errors":{"username":["has already been taken"]}}"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:3 Expected ; but found errors
+"{"errors":{"username":["has already been taken"]}}"
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1841)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:182)
+
+classpath:conduitApp/feature/EmbedandMultiline.feature:83
+16:23:47.945 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+16:23:47.967 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+16:28:06.950 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+16:28:08.195 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:28:08.201 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711277888196
+16:28:09.709 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:28:09.721 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+16:28:10.422 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+16:28:11.140 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-sMrpcziuO1m7pNiR+OLnID/zORM"
+1 < X-Cloud-Trace-Context: af991a126ab673ecf58c6424769e75a5;o=1
+1 < Date: Sun, 24 Mar 2024 10:58:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc4OTAsImV4cCI6MTcxNjQ2MTg5MH0.i8eJMnIKmbWJH0wOkaPKdLTtCddy8PPIg5V43emQNp8"}}
+
+16:28:11.154 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+16:28:11.456 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc4OTAsImV4cCI6MTcxNjQ2MTg5MH0.i8eJMnIKmbWJH0wOkaPKdLTtCddy8PPIg5V43emQNp8
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 77
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"derek81@test.com","password":"test123","username":"ahfar"}}
+
+16:28:12.090 [main] DEBUG com.intuit.karate - response time in milliseconds: 634
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: ac7012dd160e64db135ca4fcf1956f7a
+1 < Date: Sun, 24 Mar 2024 10:58:11 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+16:28:12.133 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:83
+And match response == "{"errors":{"username":["has already been taken"]}}"
+js failed:
+>>>>
+01: "{"errors":{"username":["has already been taken"]}}"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:3 Expected ; but found errors
+"{"errors":{"username":["has already been taken"]}}"
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1841)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:182)
+
+classpath:conduitApp/feature/EmbedandMultiline.feature:83
+16:28:13.298 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+16:28:13.342 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+16:28:53.275 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+16:28:54.303 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:28:54.308 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711277934304
+16:28:55.596 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:28:55.606 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+16:28:56.314 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+16:28:56.985 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-OWWUFVbWFivyBLBUDQCbbWin4Mc"
+1 < X-Cloud-Trace-Context: 8a05c23b5faaf7040d799baf6cc32484;o=1
+1 < Date: Sun, 24 Mar 2024 10:58:56 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc5MzYsImV4cCI6MTcxNjQ2MTkzNn0.JqpkWCqTc5F_Owphirh9sS0AJFBeyKHSq_gG2Eg1R9Y"}}
+
+16:28:56.994 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+16:28:57.299 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc5MzYsImV4cCI6MTcxNjQ2MTkzNn0.JqpkWCqTc5F_Owphirh9sS0AJFBeyKHSq_gG2Eg1R9Y
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"eric24@test.com","password":"test123","username":"ahfar"}}
+
+16:28:57.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 352
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 8ec8f3fdbff9baebf18608f34730324c
+1 < Date: Sun, 24 Mar 2024 10:58:57 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+16:28:57.694 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/EmbedandMultiline.feature:83
+And match response contains "{"errors":{"username":["has already been taken"]}}"
+js failed:
+>>>>
+01: "{"errors":{"username":["has already been taken"]}}"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:3 Expected ; but found errors
+"{"errors":{"username":["has already been taken"]}}"
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1841)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:182)
+
+classpath:conduitApp/feature/EmbedandMultiline.feature:83
+16:28:59.142 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+16:28:59.159 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+16:29:43.410 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+16:29:44.431 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:29:44.446 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711277984431
+16:29:45.648 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:29:45.648 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+16:29:46.148 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+16:29:46.743 [main] DEBUG com.intuit.karate - response time in milliseconds: 595
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-Rb6V9dLpokxQMlZDSaimvyfL9e4"
+1 < X-Cloud-Trace-Context: fa1483954b6685b449e05332aac6a3c7;o=1
+1 < Date: Sun, 24 Mar 2024 10:59:46 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc5ODYsImV4cCI6MTcxNjQ2MTk4Nn0.2HMBFEalanlSffl_bEYiups4QK299fG6M_8qRj480II"}}
+
+16:29:46.759 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+16:29:47.036 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzc5ODYsImV4cCI6MTcxNjQ2MTk4Nn0.2HMBFEalanlSffl_bEYiups4QK299fG6M_8qRj480II
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 80
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"dannette65@test.com","password":"test123","username":"ahfar"}}
+
+16:29:47.390 [main] DEBUG com.intuit.karate - response time in milliseconds: 339
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 90800037a9b6c341b17c7188861c0808
+1 < Date: Sun, 24 Mar 2024 10:59:47 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+16:29:48.468 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+16:29:48.498 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+16:34:40.733 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags  @invalidSignUp
+16:34:41.885 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:34:41.897 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1711278281889
+16:34:43.247 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:34:43.247 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+16:34:43.902 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"afaraaz@gmail.com","password":"test123"}}
+
+16:34:44.528 [main] DEBUG com.intuit.karate - response time in milliseconds: 626
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"125-GXWFDAqwS+7wEsvTxJ6b9ioZSX8"
+1 < X-Cloud-Trace-Context: e3cf2944147478ed2d3df09d7594f4ce
+1 < Date: Sun, 24 Mar 2024 11:04:44 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 293
+{"user":{"email":"afaraaz@gmail.com","username":"afaraaz","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzgyODQsImV4cCI6MTcxNjQ2MjI4NH0.53DWPI0jTgxi7TA5AID3TRaxQRVQc9iQdwz-vd8tEMg"}}
+
+16:34:44.544 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+16:34:44.800 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzgyODQsImV4cCI6MTcxNjQ2MjI4NH0.53DWPI0jTgxi7TA5AID3TRaxQRVQc9iQdwz-vd8tEMg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 78
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"torrie64@test.com","password":"test123","username":"ahfar"}}
+
+16:34:45.126 [main] DEBUG com.intuit.karate - response time in milliseconds: 326
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 64e0f7a129fbd70e14a6f82c0cc13d9e
+1 < Date: Sun, 24 Mar 2024 11:04:44 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+16:34:45.200 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:34:45.255 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzgyODQsImV4cCI6MTcxNjQ2MjI4NH0.53DWPI0jTgxi7TA5AID3TRaxQRVQc9iQdwz-vd8tEMg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"ahfar@test.com","password":"test123","username":"alpha.armstrong"}}
+
+16:34:45.657 [main] DEBUG com.intuit.karate - response time in milliseconds: 402
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: c71560d7a40f5c07a3da0eeea9605496
+1 < Date: Sun, 24 Mar 2024 11:04:45 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+16:34:45.673 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:34:45.735 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Nzl9LCJpYXQiOjE3MTEyNzgyODQsImV4cCI6MTcxNjQ2MjI4NH0.53DWPI0jTgxi7TA5AID3TRaxQRVQc9iQdwz-vd8tEMg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 75
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.22)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"ahfar@test.com","password":"test123","username":"ahfar"}}
+
+16:34:46.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 365
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"55-NjrsT9gca4ZDmlQ/ixYZy7cuscc"
+1 < X-Cloud-Trace-Context: b521f335b1f41d589a0101015fbe5c8e
+1 < Date: Sun, 24 Mar 2024 11:04:45 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 85
+{"errors":{"email":["has already been taken"],"username":["has already been taken"]}}
+
+16:34:47.356 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/EmbedandMultiline.feature
+16:34:47.381 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
