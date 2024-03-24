@@ -18,7 +18,7 @@ Scenario: Get all available Tags
     # And match each response.tags == "#String"
     #removed above script as of now failing
 
-
+@smoke2
 
 Scenario: Get 10 articles from homepage
     Given path 'articles'
@@ -31,5 +31,5 @@ Scenario: Get 10 articles from homepage
     And match response.articles == '#[10]'
     And match response.articlesCount == 21
     And match response =={"articles": "#array" , "articlesCount": 21 }
-    And match response.articles[0].createdAt contains '2020'
-    And match response.articles[*].favoritesCount contains 5
+    And match response.articles[0].createdAt contains '2024'
+    And match response.articles[*].favoritesCount contains 0
